@@ -2,10 +2,12 @@
 
 import { useLocale } from '@/shared/context/LocaleContext';
 import Image from 'next/image';
+import { useState } from 'react';
 import profilePhoto from '@/shared/assets/photo.png';
 
 export const Hero = () => {
   const { t } = useLocale();
+  const [isHovered, setIsHovered] = useState(false);
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -15,23 +17,38 @@ export const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+    <section className="min-h-screen flex items-center justify-center bg-linear-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       <div className="container mx-auto px-4 py-20">
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Imagen */}
             <div className="flex justify-center md:order-2">
               <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur-2xl opacity-20 animate-pulse"></div>
-                <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-2xl">
-                  <Image
-                    src={profilePhoto}
-                    alt="Luis - Senior Full Stack Engineer"
-                    fill
-                    className="object-cover"
-                    priority
-                    sizes="(max-width: 768px) 256px, 320px"
-                  />
+                <div className="absolute inset-0 bg-linear-to-r from-blue-600 to-purple-600 rounded-full blur-2xl opacity-20 animate-pulse"></div>
+                <div 
+                  className="relative w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-white dark:border-gray-800 shadow-2xl cursor-pointer overflow-hidden transition-all duration-300"
+                  onMouseEnter={() => setIsHovered(true)}
+                  onMouseLeave={() => setIsHovered(false)}
+                >
+                  <div className={`transition-opacity duration-300 ${isHovered ? 'opacity-0' : 'opacity-100'}`}>
+                    <Image
+                      src={profilePhoto}
+                      alt="Luis - Foto real"
+                      fill
+                      className="object-cover rounded-full"
+                      priority
+                      sizes="(max-width: 768px) 256px, 320px"
+                    />
+                  </div>
+                  <div className={`absolute inset-0 transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'}`}>
+                    <Image
+                      src="/luedan.png"
+                      alt="Luis - Caricatura"
+                      fill
+                      className="object-cover rounded-full"
+                      sizes="(max-width: 768px) 256px, 320px"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -42,7 +59,7 @@ export const Hero = () => {
                 {t.hero.greeting}
               </p>
               <h1 className="text-5xl md:text-6xl font-bold mb-6">
-                <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                <span className="bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                   {t.hero.name}
                 </span>
               </h1>
@@ -58,7 +75,7 @@ export const Hero = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                 <button
                   onClick={() => scrollToSection('skills')}
-                  className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all"
+                  className="px-8 py-3 bg-linear-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all"
                 >
                   {t.hero.cta}
                 </button>

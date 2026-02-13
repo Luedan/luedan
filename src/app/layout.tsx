@@ -10,7 +10,13 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Luedan - Senior Full Stack Engineer",
-  description: "Senior Full Stack Engineer | Technical Lead | Cloud & DevOps | Technical Mentorship",
+  description:
+    "Senior Full Stack Engineer | Technical Lead | Cloud & DevOps | Technical Mentorship",
+  icons: {
+    icon: [{ url: "/luedan.ico", type: "image/x-icon" }],
+    shortcut: ["/luedan.ico"],
+    apple: "/luedan.ico",
+  },
 };
 
 export default function RootLayout({
