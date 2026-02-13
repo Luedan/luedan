@@ -3,7 +3,7 @@ import { en } from './translations/en';
 
 export type Locale = 'es' | 'en';
 
-export type TranslationKeys = typeof es;
+export type TranslationKeys = typeof es | typeof en;
 
 export const translations: Record<Locale, TranslationKeys> = {
   es,
