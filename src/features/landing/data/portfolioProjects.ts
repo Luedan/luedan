@@ -174,11 +174,11 @@ export const portfolioProjects: PortfolioProject[] = [
     links: [
       {
         label: 'demo',
-        url: 'https://cvnova.vercel.app',
+        url: 'https://cvnovapp.vercel.app',
       },
       {
         label: 'repository',
-        url: 'https://github.com/luedandev/cvnova',
+        url: 'https://github.com/luedan/cvnova',
       },
     ],
   },
