@@ -88,19 +88,21 @@ export const Portfolio = () => {
                     </p>
                   </div>
 
-                  <div>
-                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                      {text.mentoring}
-                    </h4>
-                    <ul className="space-y-2">
-                      {project.mentoring.map((item, index) => (
-                        <li key={index} className="flex items-start gap-2 text-gray-700 dark:text-gray-300">
-                          <span className="text-indigo-600 mt-1">▸</span>
-                          <span>{getLocalizedContent(item, locale)}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
+                  {project.mentoring.length > 0 && (
+                    <div>
+                      <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                        {text.mentoring}
+                      </h4>
+                      <ul className="space-y-2">
+                        {project.mentoring.map((item, index) => (
+                          <li key={index} className="flex items-start gap-2 text-gray-700 dark:text-gray-300">
+                            <span className="text-indigo-600 mt-1">▸</span>
+                            <span>{getLocalizedContent(item, locale)}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
 
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
