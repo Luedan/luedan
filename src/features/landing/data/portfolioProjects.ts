@@ -37,32 +37,13 @@ export const portfolioProjects: PortfolioProject[] = [
       es: 'CVNova permite crear currículums profesionales con plantillas optimizadas por industria. Toda la información permanece en el navegador del usuario, sin registro y sin almacenamiento en servidores.',
       en: 'CVNova allows users to create professional resumes with industry-optimized templates. All information remains in the browser, with no sign-up and no server-side storage.',
     },
-    mentoring: [
-      {
-        es: 'Incluye mi experiencia brindando tutoría en frontend y backend a personas que inician en programación, enfocándome en buenas prácticas, arquitectura y desarrollo profesional.',
-        en: 'It also reflects my mentoring experience in frontend and backend for people starting in programming, focused on best practices, architecture, and professional growth.',
-      },
-    ],
+    mentoring: [],
     technologies: [
-      'Next.js',
-      'React',
-      'Node.js',
-      'NestJS',
-      'Express',
-      'PostgreSQL',
-      'MongoDB',
-      'MSSQL',
-      'Redis',
-      'RabbitMQ',
-      'AWS',
-      'Azure',
-      'CSS',
-      'HTML',
-      '.NET',
-      'C#',
-      'JavaScript',
-      'TypeScript',
-      'n8n',
+      'Next.js 16',
+      'React 19',
+      'TypeScript 5',
+      '@react-pdf/renderer',
+      'Tailwind CSS 4',
     ],
     features: [
       {
@@ -100,28 +81,28 @@ export const portfolioProjects: PortfolioProject[] = [
     ],
     techStack: [
       {
-        es: 'Next.js 16 (App Router) y React 19.',
-        en: 'Next.js 16 (App Router) and React 19.',
+        es: 'Next.js 16 con App Router y React 19.',
+        en: 'Next.js 16 with App Router and React 19.',
       },
       {
         es: 'TypeScript 5 para type-safety completo.',
         en: 'TypeScript 5 for full type safety.',
       },
       {
-        es: 'Tailwind CSS 4 para estilos y diseño responsivo.',
-        en: 'Tailwind CSS 4 for styling and responsive design.',
+        es: 'Tailwind CSS 4 para estilos utilitarios y diseño responsivo.',
+        en: 'Tailwind CSS 4 for utility-first styling and responsive design.',
       },
       {
-        es: '@react-pdf/renderer para PDFs profesionales.',
-        en: '@react-pdf/renderer for professional PDF output.',
+        es: '@react-pdf/renderer para generación de PDFs profesionales.',
+        en: '@react-pdf/renderer for professional PDF generation.',
       },
       {
-        es: 'Arquitectura modular basada en features.',
-        en: 'Feature-based modular architecture.',
+        es: 'Arquitectura modular basada en features con separación de responsabilidades.',
+        en: 'Feature-based modular architecture with clear separation of responsibilities.',
       },
       {
-        es: 'Context API para estado global (CV, i18n y tema).',
-        en: 'Context API for global state (CV data, i18n, and theme).',
+        es: 'Context API para gestión de estado global (CV data, i18n, theme).',
+        en: 'Context API for global state management (CV data, i18n, theme).',
       },
     ],
     architecture: [
@@ -193,11 +174,11 @@ export const portfolioProjects: PortfolioProject[] = [
     links: [
       {
         label: 'demo',
-        url: 'https://cvnovapp.vercel.app/',
+        url: 'https://cvnova.vercel.app',
       },
       {
         label: 'repository',
-        url: 'https://github.com/luedan/cvnova',
+        url: 'https://github.com/luedandev/cvnova',
       },
     ],
   },
