@@ -1,5 +1,5 @@
 # Luis 👨‍💻
-### Senior Full Stack Engineer | Technical Lead | Arquitectura Cloud & Plataformas SaaS
+### Senior Full Stack Engineer | Technical Lead | Cloud & DevOps | Mentoría Técnica
 
 ---
 
@@ -34,6 +34,8 @@ Diseño sistemas pensando en:
 - Trabajo bajo metodologías ágiles (Scrum / Kanban)
 
 Tengo experiencia práctica tanto en desarrollo como en infraestructura, con mentalidad orientada a plataforma, seguridad y mejora continua.
+
+También he realizado **tutorías en frontend y backend** para personas que están comenzando en programación, ayudándoles a construir bases sólidas en arquitectura, buenas prácticas y resolución de problemas.
 
 ---
 
@@ -98,7 +100,32 @@ Tengo experiencia práctica tanto en desarrollo como en infraestructura, con men
 - Integración y despliegue continuo
 - Versionamiento y estrategias de branching
 - Automatización de builds y despliegues
+- Automatización de flujos con n8n
 - Manejo de entornos (QA / Producción)
+
+---
+
+## 🧰 Tecnologías que manejo
+
+- Next.js
+- React
+- Node.js
+- NestJS
+- Express
+- PostgreSQL
+- MongoDB
+- MSSQL
+- Redis
+- RabbitMQ
+- AWS
+- Azure
+- CSS
+- HTML
+- .NET
+- C#
+- JavaScript
+- TypeScript
+- n8n
 
 ---
 
@@ -142,7 +169,7 @@ Lo que define mi forma de trabajar:
 
 ## 📈 Enfoque Actual
 
-- Arquitectura Cloud (AWS & Azure)
+- Cloud & DevOps (AWS & Azure)
 - Seguridad perimetral y hardening
 - Optimización de infraestructura
 - Diseño de plataformas escalables

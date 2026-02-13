@@ -34,7 +34,7 @@ export const Header = () => {
       )}
     >
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+        <div className="text-2xl font-bold bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
           Luedan
         </div>
 
@@ -56,6 +56,12 @@ export const Header = () => {
             className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
           >
             {t.header.experience}
+          </button>
+          <button
+            onClick={() => scrollToSection('portfolio')}
+            className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+          >
+            {t.header.portfolio}
           </button>
           <button
             onClick={() => scrollToSection('contact')}
