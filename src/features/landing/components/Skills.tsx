@@ -10,6 +10,7 @@ export const Skills = () => {
     { key: 'frontend', icon: '💻', color: 'from-purple-600 to-purple-400' },
     { key: 'cloud', icon: '☁️', color: 'from-green-600 to-green-400' },
     { key: 'databases', icon: '🗄️', color: 'from-orange-600 to-orange-400' },
+    { key: 'ai', icon: '🤖', color: 'from-pink-600 to-pink-400' },
   ] as const;
 
   return (

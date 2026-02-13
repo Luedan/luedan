@@ -9,17 +9,17 @@ export const en = {
   hero: {
     greeting: 'Hi, I am',
     name: 'Luis',
-    role: 'Senior Full Stack Engineer',
-    subtitle: 'Technical Lead | Cloud & DevOps | Technical Mentorship',
+    role: 'Senior Full Stack Engineer | Systems Engineer',
+    subtitle: 'Technical Lead | Cloud & DevOps | AI & Workflow Automation | Technical Mentorship',
     description:
-      'Specialized in designing and deploying secure, modular and scalable platforms on AWS and Azure. I combine solid backend development with well-structured infrastructure.',
+      'Specialized in designing and deploying secure, modular and scalable platforms on AWS and Azure. Graduate Systems Engineer, enthusiast of AI and automation. I combine solid backend development with well-structured infrastructure.',
     cta: 'View my work',
     contact: 'Contact',
   },
   about: {
     title: 'About Me',
     intro:
-      'I am a Senior Full Stack Engineer with a strong focus on software architecture, security and cloud infrastructure.',
+      'I am a graduate Systems Engineer and Senior Full Stack Engineer with a strong focus on software architecture, security and cloud infrastructure. Enthusiast of AI and automation, interested in exploring how these technologies can improve processes and results.',
     focus: 'I do not just develop features. I design systems thinking about:',
     points: {
       scalability: 'Scalability',
@@ -88,6 +88,19 @@ export const en = {
         'Indexing and optimization',
       ],
     },
+    ai: {
+      title: 'Interests in AI & Automation',
+      items: [
+        'Exploration of AI models and LLMs',
+        'Process automation with tools like n8n',
+        'Using AI to optimize workflows',
+        'Prompt development and experimentation',
+        'Integration of AI tools in development',
+        'Automation of repetitive tasks',
+        'AI-based chatbots and assistants',
+        'Using AI in daily workflow to improve productivity',
+      ],
+    },
   },
   profile: {
     title: 'Professional Profile',
@@ -149,6 +162,9 @@ export const en = {
       'Infrastructure as Code',
       'Cloud deployment optimization',
       'Platform Engineering',
+      'AI applications in systems engineering',
+      'Intelligent process automation',
+      'Custom LLMs and AI models',
     ],
     cta: 'Building solid systems, not just applications.',
   },

@@ -9,17 +9,17 @@ export const es = {
   hero: {
     greeting: 'Hola, soy',
     name: 'Luis',
-    role: 'Senior Full Stack Engineer',
-    subtitle: 'Technical Lead | Cloud & DevOps | Mentoría Técnica',
+    role: 'Senior Full Stack Engineer | Ingeniero de Sistemas',
+    subtitle: 'Technical Lead | Cloud & DevOps | AI & Workflow Automation | Mentoría Técnica',
     description:
-      'Especializado en diseñar y desplegar plataformas seguras, modulares y escalables en AWS y Azure. Combino desarrollo backend sólido con infraestructura bien estructurada.',
+      'Especializado en diseñar y desplegar plataformas seguras, modulares y escalables en AWS y Azure. Ingeniero de sistemas egresado, entusiasta de IA y automatización. Combino desarrollo backend sólido con infraestructura bien estructurada.',
     cta: 'Ver mi trabajo',
     contact: 'Contactar',
   },
   about: {
     title: 'Sobre mí',
     intro:
-      'Soy un Senior Full Stack Engineer con fuerte enfoque en arquitectura de software, seguridad e infraestructura cloud.',
+      'Soy Ingeniero de Sistemas egresado y Senior Full Stack Engineer con fuerte enfoque en arquitectura de software, seguridad e infraestructura cloud. Entusiasta de IA y automatización, interesado en explorar cómo estas tecnologías pueden mejorar procesos y resultados.',
     focus: 'No solo desarrollo funcionalidades. Diseño sistemas pensando en:',
     points: {
       scalability: 'Escalabilidad',
@@ -88,6 +88,19 @@ export const es = {
         'Indexación y optimización',
       ],
     },
+    ai: {
+      title: 'Intereses en IA & Automatización',
+      items: [
+        'Exploración de modelos de IA y LLMs',
+        'Automatización de procesos con herramientas como n8n',
+        'Uso de IA en optimización de workflows',
+        'Desarrollo y experimentación con prompts',
+        'Integración de herramientas IA en desarrollo',
+        'Automatización en tareas repetitivas',
+        'Chatbots y asistentes basados en IA',
+        'Uso de IA en el workflow diario para mejorar productividad',
+      ],
+    },
   },
   profile: {
     title: 'Perfil Profesional',
@@ -149,6 +162,9 @@ export const es = {
       'Infraestructura como código',
       'Optimización de despliegues cloud',
       'Platform Engineering',
+      'Aplicaciones de IA en ingeniería de sistemas',
+      'Automatización inteligente de procesos',
+      'LLMs y modelos IA personalizados',
     ],
     cta: 'Construyendo sistemas sólidos, no solo aplicaciones.',
   },
